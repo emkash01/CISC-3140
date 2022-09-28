@@ -1,0 +1,67 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220928125040
+Username: LAPTOP-JN7M1UV6\Emmad
+RunAs User: LAPTOP-JN7M1UV6\Emmad
+Configuration Name: 
+Machine: LAPTOP-JN7M1UV6 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 43496
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Emmad\Documents\PowerShell_transcript.LAPTOP-JN7M1UV6.XiM5weE2.20220928125040.txt
+PS C:\Users\Emmad\CISC-3140> mkdir homeworkex1
+
+
+    Directory: C:\Users\Emmad\CISC-3140
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/28/2022  12:50 PM                homeworkex1
+
+
+PS C:\Users\Emmad\CISC-3140> ls
+
+
+    Directory: C:\Users\Emmad\CISC-3140
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/28/2022  12:46 PM                homework2
+d-----         9/28/2022  12:50 PM                homeworkex1
+-a----         9/28/2022   3:06 AM             11 CISC-3140
+-a----         9/28/2022   3:06 AM             11 README.md
+
+
+PS C:\Users\Emmad\CISC-3140> cp README.md homework2ex1
+PS C:\Users\Emmad\CISC-3140> ls
+
+
+    Directory: C:\Users\Emmad\CISC-3140
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/28/2022  12:46 PM                homework2
+d-----         9/28/2022  12:50 PM                homeworkex1
+-a----         9/28/2022   3:06 AM             11 CISC-3140
+-a----         9/28/2022   3:06 AM             11 homework2ex1
+-a----         9/28/2022   3:06 AM             11 README.md
+
+
+PS C:\Users\Emmad\CISC-3140> mv ~/desktop/hello ~/desktop/CISC-3140
+
+PS C:\Users\Emmad\CISC-3140> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220928125241
+**********************

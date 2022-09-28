@@ -1,0 +1,25 @@
+
+Windows Command Prompt: Version 10.0.19044.2006
+- Path: C:\Windows\System32\cmd.exe
+
+cmd helps you find download and documentation information
+
+Git Version Control: Version 2.37.3.windows.1 
+- Path: C:\Program Files\Git
+
+Node JS: Version 16.17.1 (Use node -v to find out)
+- Path: C:\Program Files\nodejs\
+
+NPM: Version 8.19.2 (Use npm -v to find out)
+- Path: 
+
+Repository Configurations: 
+- Path: C:\ProgramData\Git\config
+
+Text Editor (VS Code): Version 1.71.2
+- Path: C:\Users\Emmad\AppData\Local\Programs\Microsoft VS Code
+
+
+
+
+git clone <link> = clones if in CMD

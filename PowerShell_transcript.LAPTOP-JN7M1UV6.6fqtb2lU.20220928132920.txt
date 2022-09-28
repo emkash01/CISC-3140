@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220928132920
+Username: LAPTOP-JN7M1UV6\Emmad
+RunAs User: LAPTOP-JN7M1UV6\Emmad
+Configuration Name: 
+Machine: LAPTOP-JN7M1UV6 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 27972
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Emmad\Documents\PowerShell_transcript.LAPTOP-JN7M1UV6.6fqtb2lU.20220928132920.txt
+PS C:\> cd Users
+PS C:\Users> cd Emmad
+PS C:\Users\Emmad> cd CISC-3140
+PS C:\Users\Emmad\CISC-3140> javac 3140HW1JAVA.java
+3140HW1JAVA.java:6: error: <identifier> expected
+ public class 3140HW1JAVA {
+             ^
+1 error
+PS C:\Users\Emmad\CISC-3140> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220928132950
+**********************

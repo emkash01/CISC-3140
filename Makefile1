@@ -1,0 +1,23 @@
+
+define initial
+
+build.sh: 3140HW1JAVA.java
+	cc 3140HW1JAVA.java -o functions build.sh 
+
+build.sh: daycount2.sh
+	cc -c daycount2.sh -o build.sh
+
+daycount2.sh:
+	echo "int main() { return days} > build.sh 
+
+
+define caller
+
+$(call initial)
+
+
+#I did not understand the directions for this part, but I tried my best to try to make it work given my interpretation. Other than syntax
+# one major difference regarding makefiles and shell scripts is how Makefiles use a completely different structure. In particular I am 
+# referring to the :'s being used throughout initial. I watched a few youtube videos to assist me with this and the bash script section,
+# but this was what I came up with in the end.
+
